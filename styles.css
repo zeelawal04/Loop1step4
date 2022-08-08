@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b0c6d9;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  background: white;
+  width: 30%;
+  height: 70%;
+  margin: 5rem auto;
+}
+
+header {
+  background-color: #6a96d8;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.dot {
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: white;
+}
+
+.name {
+  color: white;
+  font-weight: bold;
+}
+.CT {
+  color: #d3dff4;
+}
+
+.container {
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.topper {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.line1 {
+  border-bottom: 2px solid #f1f3f3;
+  width: 8rem;
+}
+
+.today {
+  color: #f1f3f3;
+}
+
+.chats {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid;
+}
+
+.chat1 {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.chat2 {
+  padding: 0.5rem;
+  background-color: #e6edf6;
+  border-radius: 3px;
+  margin-top: 0.2rem;
+  width: max-content;
+}
+
+.chat3 {
+  text-align: right;
+}
+
+.chat4 {
+  background-color: aquamarine;
+  padding: 0.5rem;
+  border-radius: 3px;
+  margin-left: 5rem;
+}
+
+.chat5 {
+  background-color: hsl(1deg 100% 88%);
+  padding-right: 1rem;
+  margin-top: 5px;
+  margin-left: 10rem;
+  width: max-content;
+  padding: 0.7rem;
+}
+
+footer {
+  display: flex;
+  gap: 13rem;
+  margin-top: 1rem;
+}
